@@ -1,5 +1,4 @@
-# mobile_dev
-
+# Mini Project Pengembangan Aplikasi Mobile
 A new Flutter project.
 
 ## Getting Started
