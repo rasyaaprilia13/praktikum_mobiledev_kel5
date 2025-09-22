@@ -1,0 +1,28 @@
+name: mini_projek
+description: A new Flutter project.
+publish_to: 'none' # Menonaktifkan publikasi
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# Bagian ini untuk menambahkan aset seperti gambar dan font.
+flutter:
+  # Baris ini memastikan bahwa font Material Icons disertakan.
+  uses-material-design: true
+
+  # Untuk menambahkan aset ke aplikasi Anda, tambahkan bagian aset seperti ini:
+  assets:
+    - assets/gambar.png
+  # Anda dapat menambahkan aset lainnya di sini jika diperlukan.
